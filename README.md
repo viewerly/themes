@@ -31,7 +31,7 @@ Download a `.vplugin` from the [releases](https://github.com/viewerly/themes/rel
 either:
 
 - **Settings › Plugins › Install from File…** and choose it, or
-- `viewerly plugin install io.viewerly.theme.nord-1.0.0.vplugin` in a terminal.
+- `viewerly plugin install io.viewerly.theme.nord-0.1.0.vplugin` in a terminal.
 
 Once the themes are listed in the directory, **Settings › Appearance › Browse Themes…** finds and
 installs them without a download. Then pick the theme in **Settings › Appearance** (Light theme and

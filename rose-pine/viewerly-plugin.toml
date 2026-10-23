@@ -1,6 +1,6 @@
 id = "io.viewerly.theme.rose-pine"
 name = "Rosé Pine"
-version = "1.0.0"
+version = "0.1.0"
 viewerly = ">=0.2"
 description = "Rosé Pine for dark and Rosé Pine Dawn for light."
 

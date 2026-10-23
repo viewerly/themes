@@ -1,6 +1,6 @@
 id = "io.viewerly.theme.dracula"
 name = "Dracula"
-version = "1.0.0"
+version = "0.1.0"
 viewerly = ">=0.2"
 description = "The Dracula palette, dark."
 

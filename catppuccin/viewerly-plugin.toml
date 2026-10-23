@@ -1,6 +1,6 @@
 id = "io.viewerly.theme.catppuccin"
 name = "Catppuccin"
-version = "1.0.0"
+version = "0.1.0"
 viewerly = ">=0.2"
 description = "Catppuccin's soothing pastels: Mocha for dark, Latte for light."
 

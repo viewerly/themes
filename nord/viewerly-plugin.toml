@@ -1,6 +1,6 @@
 id = "io.viewerly.theme.nord"
 name = "Nord"
-version = "1.0.0"
+version = "0.1.0"
 viewerly = ">=0.2"
 description = "Nord's arctic, north-bluish palette, dark."
 

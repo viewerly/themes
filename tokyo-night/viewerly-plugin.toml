@@ -1,6 +1,6 @@
 id = "io.viewerly.theme.tokyo-night"
 name = "Tokyo Night"
-version = "1.0.0"
+version = "0.1.0"
 viewerly = ">=0.2"
 description = "Tokyo Night: Night for dark, Day for light."
 

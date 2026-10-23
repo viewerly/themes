@@ -1,6 +1,6 @@
 id = "io.viewerly.theme.viewerly"
 name = "Viewerly"
-version = "1.0.0"
+version = "0.1.0"
 viewerly = ">=0.2"
 description = "Viewerly's own palette, dark and light, as a plugin: the starting point for a theme of your own."
 
