@@ -1,0 +1,8 @@
+id = "io.viewerly.theme.catppuccin"
+name = "Catppuccin"
+version = "1.0.0"
+viewerly = ">=0.2"
+description = "Catppuccin's soothing pastels: Mocha for dark, Latte for light."
+
+[contributes]
+themes = ["themes/*.toml"]

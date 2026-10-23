@@ -1,0 +1,40 @@
+id = "one"
+name = "One"
+
+[dark]
+name = "One Dark"
+[dark.ui]
+bg0 = "#282c34"
+bg1 = "#21252b"
+bg2 = "#2c313a"
+fg = "#abb2bf"
+acc = "#61afef"
+[dark.status]
+working = "#c678dd"
+permission = "#d19a66"
+input = "#e5c07b"
+done = "#98c379"
+error = "#e06c75"
+[dark.terminal]
+selection = "#3e4451"
+ansi = ["#282c34", "#e06c75", "#98c379", "#e5c07b", "#61afef", "#c678dd", "#56b6c2", "#abb2bf",
+        "#5c6370", "#e06c75", "#98c379", "#e5c07b", "#61afef", "#c678dd", "#56b6c2", "#ffffff"]
+
+[light]
+name = "One Light"
+[light.ui]
+bg0 = "#fafafa"
+bg1 = "#f0f0f0"
+bg2 = "#ffffff"
+fg = "#383a42"
+acc = "#4078f2"
+[light.status]
+working = "#a626a4"
+permission = "#c95e00"
+input = "#c18401"
+done = "#50a14f"
+error = "#e45649"
+[light.terminal]
+selection = "#e5e5e6"
+ansi = ["#383a42", "#e45649", "#50a14f", "#c18401", "#4078f2", "#a626a4", "#0184bc", "#a0a1a7",
+        "#696c77", "#e45649", "#50a14f", "#c18401", "#4078f2", "#a626a4", "#0184bc", "#383a42"]

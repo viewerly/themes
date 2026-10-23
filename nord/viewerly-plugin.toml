@@ -1,0 +1,8 @@
+id = "io.viewerly.theme.nord"
+name = "Nord"
+version = "1.0.0"
+viewerly = ">=0.2"
+description = "Nord's arctic, north-bluish palette, dark."
+
+[contributes]
+themes = ["themes/*.toml"]

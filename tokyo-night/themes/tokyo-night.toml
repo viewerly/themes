@@ -1,0 +1,40 @@
+id = "tokyo-night"
+name = "Tokyo Night"
+
+[dark]
+name = "Night"
+[dark.ui]
+bg0 = "#1a1b26"
+bg1 = "#16161e"
+bg2 = "#292e42"
+fg = "#c0caf5"
+acc = "#7aa2f7"
+[dark.status]
+working = "#bb9af7"
+permission = "#ff9e64"
+input = "#e0af68"
+done = "#9ece6a"
+error = "#f7768e"
+[dark.terminal]
+selection = "#33467c"
+ansi = ["#15161e", "#f7768e", "#9ece6a", "#e0af68", "#7aa2f7", "#bb9af7", "#7dcfff", "#a9b1d6",
+        "#414868", "#f7768e", "#9ece6a", "#e0af68", "#7aa2f7", "#bb9af7", "#7dcfff", "#c0caf5"]
+
+[light]
+name = "Day"
+[light.ui]
+bg0 = "#e1e2e7"
+bg1 = "#d0d5e3"
+bg2 = "#e9e9ed"
+fg = "#3760bf"
+acc = "#2e7de9"
+[light.status]
+working = "#9854f1"
+permission = "#b15c00"
+input = "#8c6c3e"
+done = "#587539"
+error = "#f52a65"
+[light.terminal]
+selection = "#b7c1e3"
+ansi = ["#e9e9ed", "#f52a65", "#587539", "#8c6c3e", "#2e7de9", "#9854f1", "#007197", "#6172b0",
+        "#a1a6c5", "#f52a65", "#587539", "#8c6c3e", "#2e7de9", "#9854f1", "#007197", "#3760bf"]

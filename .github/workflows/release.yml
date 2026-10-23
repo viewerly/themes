@@ -1,0 +1,29 @@
+# On a v* tag: build every theme and attach the .vplugin files to that tag's GitHub release, which is what
+# viewerly.io/plugins/submit and the in-app directory point at.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+
+      # Each theme keeps its own version in its manifest; a tag releases all of them, and the
+      # file names (<id>-<version>.vplugin) say which version each is.
+
+      - name: Build
+        run: ./build.sh
+
+      - name: Release
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2.6.2
+        with:
+          files: dist/*.vplugin
+          fail_on_unmatched_files: true
+          generate_release_notes: true

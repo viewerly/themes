@@ -1,0 +1,40 @@
+id = "rose-pine"
+name = "Rosé Pine"
+
+[dark]
+name = "Rosé Pine"
+[dark.ui]
+bg0 = "#191724"
+bg1 = "#1f1d2e"
+bg2 = "#26233a"
+fg = "#e0def4"
+acc = "#c4a7e7"
+[dark.status]
+working = "#c4a7e7"
+permission = "#ebbcba"
+input = "#f6c177"
+done = "#9ccfd8"
+error = "#eb6f92"
+[dark.terminal]
+selection = "#403d52"
+ansi = ["#26233a", "#eb6f92", "#31748f", "#f6c177", "#9ccfd8", "#c4a7e7", "#ebbcba", "#e0def4",
+        "#6e6a86", "#eb6f92", "#31748f", "#f6c177", "#9ccfd8", "#c4a7e7", "#ebbcba", "#e0def4"]
+
+[light]
+name = "Dawn"
+[light.ui]
+bg0 = "#faf4ed"
+bg1 = "#f2e9e1"
+bg2 = "#fffaf3"
+fg = "#575279"
+acc = "#907aa9"
+[light.status]
+working = "#907aa9"
+permission = "#d7827e"
+input = "#ea9d34"
+done = "#56949f"
+error = "#b4637a"
+[light.terminal]
+selection = "#dfdad9"
+ansi = ["#f2e9e1", "#b4637a", "#286983", "#ea9d34", "#56949f", "#907aa9", "#d7827e", "#575279",
+        "#9893a5", "#b4637a", "#286983", "#ea9d34", "#56949f", "#907aa9", "#d7827e", "#575279"]

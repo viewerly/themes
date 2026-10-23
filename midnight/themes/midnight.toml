@@ -1,0 +1,29 @@
+id = "midnight"
+name = "Midnight"
+
+[dark]
+name = "Midnight"
+[dark.ui]
+bg0 = "#0f1729"
+bg1 = "#0b1120"
+bg2 = "#17213a"
+fg = "#dbe4f3"
+acc = "#6ea8fe"
+[dark.terminal]
+ansi = ["#1b2540", "#f87171", "#4ade80", "#facc15", "#6ea8fe", "#c084fc", "#22d3ee", "#dbe4f3",
+        "#475569", "#fca5a5", "#86efac", "#fde047", "#93c5fd", "#d8b4fe", "#67e8f9", "#ffffff"]
+[dark.syntax]
+keyword = "#c084fc"
+string = "#86efac"
+comment = "#64748b"
+function = "#6ea8fe"
+type = "#facc15"
+
+[light]
+name = "Dawn"
+[light.ui]
+bg0 = "#f4f7fc"
+fg = "#1b2540"
+acc = "#2f6fdb"
+[light.terminal]
+ansi = ["#1b2540", "#c62828", "#2e7d32", "#a16207", "#2f6fdb", "#7e22ce", "#0e7490", "#e2e8f0"]

@@ -1,0 +1,8 @@
+id = "io.viewerly.theme.github"
+name = "GitHub"
+version = "1.0.0"
+viewerly = ">=0.2"
+description = "GitHub's own colours, in GitHub Dark and GitHub Light."
+
+[contributes]
+themes = ["themes/*.toml"]

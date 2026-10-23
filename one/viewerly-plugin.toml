@@ -1,0 +1,8 @@
+id = "io.viewerly.theme.one"
+name = "One"
+version = "1.0.0"
+viewerly = ">=0.2"
+description = "Atom's One Dark and One Light."
+
+[contributes]
+themes = ["themes/*.toml"]

@@ -1,0 +1,42 @@
+id = "catppuccin"
+name = "Catppuccin"
+
+[dark]
+name = "Mocha"
+[dark.ui]
+bg0 = "#1e1e2e"
+bg1 = "#181825"
+bg2 = "#313244"
+fg = "#cdd6f4"
+acc = "#cba6f7"
+[dark.status]
+working = "#cba6f7"
+permission = "#fab387"
+input = "#f9e2af"
+done = "#a6e3a1"
+error = "#f38ba8"
+[dark.terminal]
+cursor = "#f5e0dc"
+selection = "#585b70"
+ansi = ["#45475a", "#f38ba8", "#a6e3a1", "#f9e2af", "#89b4fa", "#f5c2e7", "#94e2d5", "#bac2de",
+        "#585b70", "#f38ba8", "#a6e3a1", "#f9e2af", "#89b4fa", "#f5c2e7", "#94e2d5", "#a6adc8"]
+
+[light]
+name = "Latte"
+[light.ui]
+bg0 = "#eff1f5"
+bg1 = "#e6e9ef"
+bg2 = "#dce0e8"
+fg = "#4c4f69"
+acc = "#8839ef"
+[light.status]
+working = "#8839ef"
+permission = "#fe640b"
+input = "#df8e1d"
+done = "#40a02b"
+error = "#d20f39"
+[light.terminal]
+cursor = "#dc8a78"
+selection = "#acb0be"
+ansi = ["#5c5f77", "#d20f39", "#40a02b", "#df8e1d", "#1e66f5", "#ea76cb", "#179299", "#acb0be",
+        "#6c6f85", "#d20f39", "#40a02b", "#df8e1d", "#1e66f5", "#ea76cb", "#179299", "#bcc0cc"]

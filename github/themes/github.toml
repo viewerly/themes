@@ -1,0 +1,38 @@
+id = "github"
+name = "GitHub"
+
+[dark]
+name = "GitHub Dark"
+[dark.ui]
+bg0 = "#0d1117"
+bg1 = "#010409"
+bg2 = "#161b22"
+fg = "#e6edf3"
+acc = "#2f81f7"
+[dark.status]
+working = "#bc8cff"
+permission = "#f0883e"
+input = "#d29922"
+done = "#3fb950"
+error = "#f85149"
+[dark.terminal]
+ansi = ["#484f58", "#ff7b72", "#3fb950", "#d29922", "#58a6ff", "#bc8cff", "#39c5cf", "#b1bac4",
+        "#6e7681", "#ffa198", "#56d364", "#e3b341", "#79c0ff", "#d2a8ff", "#56d4dd", "#ffffff"]
+
+[light]
+name = "GitHub Light"
+[light.ui]
+bg0 = "#ffffff"
+bg1 = "#f6f8fa"
+bg2 = "#ffffff"
+fg = "#1f2328"
+acc = "#0969da"
+[light.status]
+working = "#8250df"
+permission = "#bc4c00"
+input = "#9a6700"
+done = "#1a7f37"
+error = "#cf222e"
+[light.terminal]
+ansi = ["#24292f", "#cf222e", "#116329", "#4d2d00", "#0969da", "#8250df", "#1b7c83", "#6e7781",
+        "#57606a", "#a40e26", "#1a7f37", "#633c01", "#218bff", "#a475f9", "#3192aa", "#8c959f"]

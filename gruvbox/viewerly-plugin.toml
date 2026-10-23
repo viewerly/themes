@@ -1,0 +1,8 @@
+id = "io.viewerly.theme.gruvbox"
+name = "Gruvbox"
+version = "1.0.0"
+viewerly = ">=0.2"
+description = "Gruvbox's retro, warm palette, in a dark and a light variant."
+
+[contributes]
+themes = ["themes/*.toml"]

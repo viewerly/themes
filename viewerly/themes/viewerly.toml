@@ -1,0 +1,63 @@
+# Viewerly's own palette, from Theme.swift. The default.
+id = "viewerly"
+name = "Viewerly"
+
+[dark.ui]
+bg0 = "#141417"
+bg1 = "#1b1b1f"
+bg2 = "#212126"
+line = "#ffffff14"
+line2 = "#ffffff24"
+fg = "#e9e9ee"
+fg2 = "#e9e9ee9e"
+fg3 = "#e9e9ee66"
+acc = "#b48df4"
+acc_bg = "#b48df42e"
+sel = "#ffffff12"
+hover = "#ffffff0b"
+btn = "#ffffff14"
+field = "#ffffff0f"
+perm_bg = "#f995321a"
+[dark.status]
+idle = "#e9e9ee4d"
+working = "#b995f6"
+permission = "#f99532"
+input = "#eec743"
+done = "#5ac576"
+error = "#f4514f"
+[dark.terminal]
+background = "#0f0f12"
+foreground = "#d6d6dc"
+cursor = "#b48df4"
+ansi = ["#1b1b1f", "#f4514f", "#5ac576", "#eec743", "#6a9bf4", "#b48df4", "#4cc2c9", "#d6d6dc",
+        "#5c5c66", "#ff7a78", "#7fdb97", "#f7d96e", "#8fb4f8", "#cdb0f8", "#79d8de", "#f5f5f7"]
+
+[light.ui]
+bg0 = "#f5f5f7"
+bg1 = "#ebebee"
+bg2 = "#f8f8fa"
+line = "#00000017"
+line2 = "#00000029"
+fg = "#1c1c21"
+fg2 = "#1c1c219e"
+fg3 = "#1c1c216b"
+acc = "#8451c9"
+acc_bg = "#8451c921"
+sel = "#0000000f"
+hover = "#00000009"
+btn = "#0000000f"
+field = "#0000000d"
+perm_bg = "#e576001a"
+[light.status]
+idle = "#1c1c214d"
+working = "#8b5dce"
+permission = "#e57600"
+input = "#d9a514"
+done = "#25984d"
+error = "#d73337"
+[light.terminal]
+background = "#ffffff"
+foreground = "#2a2a30"
+cursor = "#8451c9"
+ansi = ["#2a2a30", "#d73337", "#25984d", "#a67c00", "#3466d4", "#8451c9", "#1c8a93", "#8a8a94",
+        "#6a6a74", "#e5484a", "#2daa5a", "#c99400", "#4f7fe6", "#9a6ad8", "#23a2ac", "#1c1c21"]

@@ -1,0 +1,9 @@
+id = "io.viewerly.theme.midnight"
+name = "Midnight"
+version = "1.0.0"
+viewerly = ">=0.2"
+description = "A deep blue theme in a dark and a light (Dawn) variant, and file icons to go with it."
+
+[contributes]
+themes = ["themes/*.toml"]
+icons = "icons"

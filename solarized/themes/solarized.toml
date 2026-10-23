@@ -1,0 +1,38 @@
+id = "solarized"
+name = "Solarized"
+
+[dark.ui]
+bg0 = "#002b36"
+bg1 = "#00212b"
+bg2 = "#073642"
+fg = "#93a1a1"
+acc = "#268bd2"
+[dark.status]
+working = "#6c71c4"
+permission = "#cb4b16"
+input = "#b58900"
+done = "#859900"
+error = "#dc322f"
+[dark.terminal]
+foreground = "#839496"
+selection = "#073642"
+ansi = ["#073642", "#dc322f", "#859900", "#b58900", "#268bd2", "#d33682", "#2aa198", "#eee8d5",
+        "#002b36", "#cb4b16", "#586e75", "#657b83", "#839496", "#6c71c4", "#93a1a1", "#fdf6e3"]
+
+[light.ui]
+bg0 = "#fdf6e3"
+bg1 = "#eee8d5"
+bg2 = "#f5efdc"
+fg = "#586e75"
+acc = "#268bd2"
+[light.status]
+working = "#6c71c4"
+permission = "#cb4b16"
+input = "#b58900"
+done = "#859900"
+error = "#dc322f"
+[light.terminal]
+foreground = "#657b83"
+selection = "#eee8d5"
+ansi = ["#073642", "#dc322f", "#859900", "#b58900", "#268bd2", "#d33682", "#2aa198", "#eee8d5",
+        "#002b36", "#cb4b16", "#586e75", "#657b83", "#839496", "#6c71c4", "#93a1a1", "#fdf6e3"]

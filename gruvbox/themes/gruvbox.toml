@@ -1,0 +1,36 @@
+id = "gruvbox"
+name = "Gruvbox"
+
+[dark.ui]
+bg0 = "#282828"
+bg1 = "#1d2021"
+bg2 = "#3c3836"
+fg = "#ebdbb2"
+acc = "#fabd2f"
+[dark.status]
+working = "#d3869b"
+permission = "#fe8019"
+input = "#fabd2f"
+done = "#b8bb26"
+error = "#fb4934"
+[dark.terminal]
+selection = "#504945"
+ansi = ["#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a", "#a89984",
+        "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b", "#8ec07c", "#ebdbb2"]
+
+[light.ui]
+bg0 = "#fbf1c7"
+bg1 = "#f2e5bc"
+bg2 = "#ebdbb2"
+fg = "#3c3836"
+acc = "#b57614"
+[light.status]
+working = "#8f3f71"
+permission = "#af3a03"
+input = "#b57614"
+done = "#79740e"
+error = "#9d0006"
+[light.terminal]
+selection = "#d5c4a1"
+ansi = ["#fbf1c7", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a", "#7c6f64",
+        "#928374", "#9d0006", "#79740e", "#b57614", "#076678", "#8f3f71", "#427b58", "#3c3836"]

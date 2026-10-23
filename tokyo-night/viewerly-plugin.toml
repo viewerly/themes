@@ -1,0 +1,8 @@
+id = "io.viewerly.theme.tokyo-night"
+name = "Tokyo Night"
+version = "1.0.0"
+viewerly = ">=0.2"
+description = "Tokyo Night: Night for dark, Day for light."
+
+[contributes]
+themes = ["themes/*.toml"]
